@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: #ccccff;
+  padding: 5vw; /* Spacing around the content */
+  line-height: 1.6; /* Line height for better readability */
+}
+
+h1 {
+  color: purple; /* Heading color */
+  background-color: lightblue;
+  margin-bottom: 5vh; /* Spacing below the heading */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 5vh; /* Spacing below the table */
+}
+
+table, th, td {
+  border: 0.2vw solid blue; /* Table border */
+}
+
+a {
+  color: #007bff; /* Link color */
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Add styles for other elements as needed */

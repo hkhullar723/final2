@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 5vw;
+    padding: 5vw;
+    line-height: 1.6;
+    background-color: #006666;
+    color: #e6ffff;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 5vw;
+    background-color: bisque;
+    display: inline-block;
+}
+
+p,
+ol,
+li {
+    margin-bottom: 2vh;
+}
+
+ol {
+    margin-left: 5vw;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+}
+
+.item {
+    background-color: #ddd;
+    padding: 5vw;
+    text-align: center;
+}
